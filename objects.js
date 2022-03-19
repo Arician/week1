@@ -100,4 +100,9 @@ coffeeShop.foodOrdered(`baconSandwhich`,`baconSandwhich`)
 
 
 // spent into the middle of the night on this. My examples don't quite line up and I don't like how it seperates them out quite like that.
-// was overcomplicating this for a long time. Not knowing about the (...) was rough.
+// was overcomplicating this for a long time. Not knowing about the (...) was rough. As was not knowing about .forEach. They kinda revolutionised this for me.
+// This is overall the third attempt. The first attempt was something like this but with twice as many functions and using arrays and awkward use of index positions
+// second attempt treated the food and drink options like an order instead of like a menu
+// This I don't like but maybe it answers the brief? Maybe I'm overthinking? Kind of wanted something that prints out one order with one total
+// It'd list food first and then drinks, so they'd be ordered for easy reading like an actual reciept.
+// not sure how I'd do that and still meet the brief of having 2 methods. Maybe by having the first methong log the first half of the reciept and the second log the second half?
